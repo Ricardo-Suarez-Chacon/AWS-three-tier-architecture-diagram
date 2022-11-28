@@ -1,4 +1,4 @@
-# three-tier-architecture-diagram
+# AWS three-tier-architecture-diagram
 
 ![alt_text](https://github.com/Ricardo-Suarez-Chacon/three-tier-architecture-diagram/blob/main/AWS%20three-tier%20architecture.png "image_tooltip")
 
