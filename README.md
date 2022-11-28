@@ -2,6 +2,7 @@
 
 ![alt_text](https://github.com/Ricardo-Suarez-Chacon/three-tier-architecture-diagram/blob/main/AWS%20three-tier%20architecture.png "image_tooltip")
 
+**_Three-tier architecture diagram, is the final assignment of the AWS Cloud Technical Essentials course taught by Amazon Web Services at www.coursera.org._**
 
 This three-tier architecture diagram is hosted in one region, with two availability zones each, and as the name suggests, three tiers, each with its own security group, load balancer and auto-scaling.
 
