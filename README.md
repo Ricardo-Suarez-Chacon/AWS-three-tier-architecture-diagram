@@ -16,9 +16,7 @@ The region hosts the solution, and has defined permissions, security groups, def
 
 The S3 service hosts the media files generated and consumed by the users and CloudWatch is in charge of managing the alarms and triggers needed to dynamically scale the site as needed according to the number of converged users and/or computational load required by the solution.
 
-The backbone of the automatic scaling process lies in the web and application layers in the EBL (Elastic Load Balancing) and EC2 Auto Scaling services, which manage the infrastructure resources needed for these two layers, in the database layer this task is managed by the Amazon RDS (Amazon Relational Database Service).
-
-Amazon Relational Database Service), which is responsible for keeping the databases synchronized in each availability zone. 
+The backbone of the automatic scaling process lies in the web and application layers in the EBL (Elastic Load Balancing) and EC2 Auto Scaling services, which manage the infrastructure resources needed for these two layers, in the database layer this task is managed by the Amazon RDS (Amazon Relational Database Service), which is responsible for keeping the databases synchronized in each availability zone. 
 
 The communication to the Internet is through the gateway and there the information flow from and to the user is routed through the first layer which is public. This web application layer serves the user interface through a web interface, which it receives and delivers to the end user.
 
